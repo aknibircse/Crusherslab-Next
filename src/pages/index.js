@@ -25,7 +25,7 @@ export default function IndexPage() {
         <VideoCalling />
         <Pricing />
         <Clients />
-        <Blog />
+        {/* <Blog /> */}
         <Faq />
         <Support />
       </Layout>
