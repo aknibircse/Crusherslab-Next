@@ -26,7 +26,7 @@ export const menuItems = [
       },
       {
         path: '#!',
-        label: 'Popular Campaign',
+        label: ' Campaign',
       },
     ],
   },
