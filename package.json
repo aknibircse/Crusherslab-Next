@@ -1,0 +1,36 @@
+{
+  "name": "@landing/022-next",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "export": "next export",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.0.0",
+    "next": "^11.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "polished": "^4.1.3",
+    "rc-drawer": "^4.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.2.0",
+    "react-masonry-component": "^6.3.0",
+    "react-responsive": "^9.0.0-beta.3",
+    "react-scroll": "^1.8.3",
+    "react-slick": "^0.28.1",
+    "react-stickynode": "^4.0.0",
+    "theme-ui": "^0.11.1"
+  },
+  "devDependencies": {
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "next-sitemap": "^1.2.22"
+  }
+}
