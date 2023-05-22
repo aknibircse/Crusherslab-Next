@@ -18,7 +18,7 @@ export default function IndexPage() {
       <Layout>
         <SEO
           title="Software Testing Company | QA Services | TestingExperts"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          description="CrusherslabQA is a leading software testing company that provides QA services & software testing services. We are a team of QA experts who use the latest tools & techniques to ensure the best quality of your software."
         />
         <Banner />
         <Services />

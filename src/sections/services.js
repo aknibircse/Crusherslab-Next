@@ -5,47 +5,70 @@ import Slider from 'react-slick';
 import SectionHeading from 'components/section-heading';
 import Feature from 'components/cards/feature';
 
-import icon1 from 'assets/images/icons/services/1.png';
-import icon2 from 'assets/images/icons/services/2.png';
-import icon3 from 'assets/images/icons/services/3.png';
-
+import mobiletesting from 'assets/images/icons/services/mobiletesting.png';
+import webtesting from 'assets/images/icons/services/webtesting.png';
+import automationtesting from 'assets/images/icons/services/automationtesting.png';
+import performancetesting from 'assets/images/icons/services/performancetesting.png';
+import apitesting from 'assets/images/icons/services/apitesting.png';
+import cybertesting from 'assets/images/icons/services/cybertesting.png';
+import gametesting from 'assets/images/icons/services/gametesting.png';
+import blockchaintesting from 'assets/images/icons/services/blockchaintesting.png';
+import desktopapptesting from 'assets/images/icons/services/desktopapptesting.png';
 const data = [
   {
     id: 1,
-    icon: icon1,
-    title: 'For Individuals',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: mobiletesting,
+    title: 'Mobile App Testing',
+    description: `Efficient mobile app testing solutions to ensure flawless performance across various devices and operating systems.`,
   },
   {
     id: 2,
-    icon: icon2,
-    title: 'For Team',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: webtesting,
+    title: 'Web App Testing',
+    description: `Comprehensive web app testing services ensuring optimal functionality and seamless user experience across all browsers.`,
   },
   {
     id: 3,
-    icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: automationtesting,
+    title: 'Automation Testing',
+    description: `Accelerate testing processes with powerful automation tools, enhancing efficiency and ensuring robust software quality.`,
   },
   {
     id: 1,
-    icon: icon1,
-    title: 'For Individuals',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: performancetesting,
+    title: 'Performance Testing',
+    description: `Unleash the full potential of your software with cutting-edge performance testing, delivering lightning-fast, high-performing applications.`,
   },
   {
     id: 2,
-    icon: icon2,
-    title: 'For Team',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: apitesting,
+    title: 'API Testing',
+    description: `Streamline your API testing with advanced solutions, ensuring seamless integration and optimal functionality across systems.`,
   },
   {
     id: 3,
-    icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    icon: cybertesting,
+    title: 'Security Testing',
+    description: `Fortify your digital infrastructure with state-of-the-art cybersecurity measures, safeguarding your valuable data and ensuring uninterrupted operations.`,
   },
+  {
+    id: 1,
+    icon: gametesting,
+    title: 'Game Testing',
+    description: `Elevate your gaming experience with meticulous game testing, ensuring immersive gameplay, flawless mechanics, and captivating visuals.`,
+  },
+  {
+    id: 2,
+    icon: blockchaintesting,
+    title: 'Blockchain Testing',
+    description: `Ensure the reliability and security of your blockchain solutions through rigorous testing, empowering trust and scalability.`,
+  },
+  {
+    id: 3,
+    icon: desktopapptesting,
+    title: 'Desktop App Testing',
+    description: `Seamless desktop app testing for impeccable performance, ensuring client satisfaction and impressive user experiences.`,
+  }
 ];
 
 const settings = {
