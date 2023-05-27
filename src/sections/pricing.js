@@ -9,8 +9,8 @@ import SectionHeading from 'components/section-heading';
 const data = [
   {
     id: 1,
-    title: 'Starter Pack',
-    amount: 18.99,
+    title: 'Free Plan',
+    amount: 0.00,
     is_recommended: false,
     library_access: true,
     multiple_user: true,
@@ -21,9 +21,9 @@ const data = [
   },
   {
     id: 2,
-    title: 'Premium Pack',
-    amount: 23.99,
-    is_recommended: true,
+    title: 'Basic Plan',
+    amount: 50,
+    is_recommended: false,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
@@ -33,10 +33,13 @@ const data = [
   },
   {
     id: 3,
-    title: 'Custom Pack',
-    amount: 29.99,
-    is_recommended: false,
+    title: 'Standard Plan',
+    amount: 100,
+    is_recommended: true,
     library_access: true,
+    multiple_user: true,
+    refund_policy: true,
+    google_analytics: true,
     multiple_user: true,
     refund_policy: true,
     google_analytics: true,
@@ -45,9 +48,9 @@ const data = [
   },
   {
     id: 4,
-    title: 'Ultimate Pack',
-    amount: 35.99,
-    is_recommended: false,
+    title: 'Custom Plan',
+    amount: 'Custom',
+    is_recommended: true,
     library_access: true,
     multiple_user: true,
     refund_policy: true,
@@ -104,10 +107,24 @@ const Pricing = () => {
         <Box sx={styles.grid}>
           {isTablet && (
             <ul sx={styles.features}>
-              <li>Full Access Library</li>
+              {/* <li>Full Access Library</li>
               <li>Multiple user</li>
               <li>Refund Policy</li>
               <li>Google Analytics</li>
+              <li>24/7 support</li> */}
+              <li>Functionality Testing</li>
+              <li>Compatibility Testing</li>
+              <li>Regression Testing</li>
+              <li>Performance Testing</li>
+              <li>Security Testing</li>
+              <li>Localization Testing</li>
+              <li>Cross-Browser Testing</li>
+              <li>Exploratory Testing</li>
+              <li>API Testing</li>
+              <li>Mobile App Testing</li>
+              <li>Automation Testing</li>
+              <li>Load & PerformanceTesting </li>
+              <li>Usability Testing</li>
               <li>24/7 support</li>
             </ul>
           )}
