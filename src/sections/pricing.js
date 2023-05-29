@@ -16,6 +16,8 @@ const data = [
     multiple_user: true,
     refund_policy: false,
     google_analytics: false,
+    function_testing: true,
+    compatibility_testing: true,
     support: false,
     trial_period: 15,
   },

@@ -45,6 +45,42 @@ const PriceTable = ({ data }) => {
             <span>24/7 support</span>
             <FeatureIcon value={data.support} />
           </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>24/7 support</span>
+            <FeatureIcon value={data.support} />
+          </li>
         </Box>
         <Button
           sx={styles.button}
