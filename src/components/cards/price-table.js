@@ -26,61 +26,62 @@ const PriceTable = ({ data }) => {
         </span>
         <Box as="ul" variant="styles.unStyled" sx={styles.features}>
           <li>
-            <span>Full Access Library</span>
-            <FeatureIcon value={data.library_access} />
+            <span>Functionality Testing</span>
+            <FeatureIcon value={data.functionality_testing} />
           </li>
           <li>
-            <span>Multiple user</span>
+            <span>Compatibility Testing</span>
             <FeatureIcon value={data.multiple_user} />
           </li>
           <li>
-            <span>Refund Policy</span>
+            <span>Regression Testing</span>
             <FeatureIcon value={data.refund_policy} />
           </li>
           <li>
-            <span>Google Analytics</span>
+            <span>Performance Testing</span>
             <FeatureIcon value={data.google_analytics} />
           </li>
           <li>
-            <span>24/7 support</span>
+            <span>Security Testing</span>
+            <FeatureIcon value={data.google_analytics} />
+          </li>
+          <li>
+            <span>Localization Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Cross-Browser Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Exploratory Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>API Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Mobile App Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Automation Testing</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Load & PerformanceTesting</span>
+            <FeatureIcon value={data.support} />
+          </li>
+          <li>
+            <span>Usability Testing</span>
             <FeatureIcon value={data.support} />
           </li>
           <li>
             <span>24/7 support</span>
             <FeatureIcon value={data.support} />
           </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
-          <li>
-            <span>24/7 support</span>
-            <FeatureIcon value={data.support} />
-          </li>
+       
         </Box>
         <Button
           sx={styles.button}
