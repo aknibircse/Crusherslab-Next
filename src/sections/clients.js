@@ -3,7 +3,7 @@
 import { jsx, Flex, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
-import clients from 'assets/images/clients.png';
+import clients from 'assets/images/clients.svg';
 
 const Clients = () => {
   return (
