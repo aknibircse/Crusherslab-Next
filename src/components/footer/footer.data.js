@@ -10,75 +10,53 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        label: 'Support Center',
+        label: 'Contact Us',
       },
       {
-        path: '#!',
-        label: 'Customer Support',
-      },
-      {
-        path: '#!',
+        path: '/about-us',
         label: 'About Us',
       },
       {
         path: '#!',
         label: 'Copyright',
       },
-      {
-        path: '#!',
-        label: ' Campaign',
-      },
+      
+     
     ],
   },
   {
     id: 3,
-    title: 'Our Information',
+    title: 'More Info',
     items: [
       {
         path: '#!',
-        label: 'Return Policy ',
+        label: 'Careers',
       },
       {
         path: '#!',
-        label: 'Privacy Policy',
+        label: 'Case Study',
       },
       {
         path: '#!',
-        label: 'Terms & Conditions',
+        label: 'Events',
       },
       {
         path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
+        label: 'News',
       },
     ],
   },
   {
     id: 4,
-    title: 'My Account',
+    title: 'Our Wings',
     items: [
       {
         path: '#!',
-        label: 'Press inquiries',
+        label: 'QA Nexus Academy',
       },
       {
         path: '#!',
-        label: 'Social media ',
-      },
-      {
-        path: '#!',
-        label: 'directories',
-      },
-      {
-        path: '#!',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '#!',
-        label: 'Permissions',
+        label: 'Team Thunder',
       },
     ],
   },

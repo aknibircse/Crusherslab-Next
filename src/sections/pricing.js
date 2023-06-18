@@ -9,49 +9,86 @@ import SectionHeading from 'components/section-heading';
 const data = [
   {
     id: 1,
-    title: 'Starter Pack',
-    amount: 18.99,
+    title: 'Free Plan',
+    amount: 0.00,
     is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: false,
-    google_analytics: false,
+    functionality_testing: true,
+    compatibility_testing: true,
+    regression_testing: false,
+    performance_testing: false,
+    security_testing: false,
+    localization_testing: false,
+    cross_browser_testing: false,
+    exploratory_testing: false,
+    api_testing: false,
+    mobile_testing: false,
+    automation_testing: false,
+    load_testing: false,
+    usability_testing: false,
     support: false,
     trial_period: 15,
   },
   {
     id: 2,
-    title: 'Premium Pack',
-    amount: 23.99,
-    is_recommended: true,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: false,
+    title: 'Basic Plan',
+    amount: 50,
+    is_recommended: false,
+    functionality_testing: true,
+    compatibility_testing: true,
+    regression_testing: false,
+    performance_testing: false,
+    security_testing: false,
+    localization_testing: false,
+    cross_browser_testing: false,
+    exploratory_testing: false,
+    api_testing: false,
+    mobile_testing: false,
+    automation_testing: false,
+    load_testing: false,
+    usability_testing: false,
+    support: false,
     support: false,
     trial_period: 30,
   },
   {
     id: 3,
-    title: 'Custom Pack',
-    amount: 29.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: true,
+    title: 'Standard Plan',
+    amount: 100,
+    functionality_testing: true,
+    compatibility_testing: true,
+    regression_testing: false,
+    performance_testing: false,
+    security_testing: false,
+    localization_testing: false,
+    cross_browser_testing: false,
+    exploratory_testing: false,
+    api_testing: false,
+    mobile_testing: false,
+    automation_testing: false,
+    load_testing: false,
+    usability_testing: false,
+    support: false,
     support: false,
     trial_period: 30,
   },
   {
     id: 4,
-    title: 'Ultimate Pack',
-    amount: 35.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: true,
+    title: 'Custom Plan',
+    amount: 'Custom',
+    functionality_testing: true,
+    compatibility_testing: true,
+    regression_testing: false,
+    performance_testing: false,
+    security_testing: false,
+    localization_testing: false,
+    cross_browser_testing: false,
+    exploratory_testing: false,
+    api_testing: false,
+    mobile_testing: false,
+    automation_testing: false,
+    load_testing: false,
+    usability_testing: false,
+    support: false,
     support: true,
     trial_period: 45,
   },
@@ -104,10 +141,24 @@ const Pricing = () => {
         <Box sx={styles.grid}>
           {isTablet && (
             <ul sx={styles.features}>
-              <li>Full Access Library</li>
+              {/* <li>Full Access Library</li>
               <li>Multiple user</li>
               <li>Refund Policy</li>
               <li>Google Analytics</li>
+              <li>24/7 support</li> */}
+              <li>Functionality Testing</li>
+              <li>Compatibility Testing</li>
+              <li>Regression Testing</li>
+              <li>Performance Testing</li>
+              <li>Security Testing</li>
+              <li>Localization Testing</li>
+              <li>Cross-Browser Testing</li>
+              <li>Exploratory Testing</li>
+              <li>API Testing</li>
+              <li>Mobile App Testing</li>
+              <li>Automation Testing</li>
+              <li>Load & PerformanceTesting </li>
+              <li>Usability Testing</li>
               <li>24/7 support</li>
             </ul>
           )}

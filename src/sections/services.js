@@ -114,7 +114,9 @@ const Services = () => {
           {data?.map((item) => (
             <Feature key={item.id} className="feature-item" data={item} />
           ))}
+       
         </Slider>
+
       </Container>
     </section>
   );
