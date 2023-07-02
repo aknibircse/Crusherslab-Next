@@ -1,7 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Heading, Image } from 'theme-ui';
-import { Link } from 'components/link';
+ import { Link } from 'components/link';
+
 import { rgba } from 'polished';
 
 const Widget = ({ title, items }) => {
@@ -10,7 +11,9 @@ const Widget = ({ title, items }) => {
       <Heading as="h3">{title}</Heading>
       <ul>
         {items.map(({ path, label, icon }, i) => (
-          <li key={i}>
+          <li key={i}
+          className='cursor_pointer'>
+
             {icon && <Image src={icon} alt={label} />}
             <Link path={path} key={i} label={label} variant="footer" />
           </li>

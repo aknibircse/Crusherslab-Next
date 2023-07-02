@@ -29,7 +29,7 @@ export const menuItems = [
     title: 'More Info',
     items: [
       {
-        path: '#!',
+        path: '/career',
         label: 'Careers',
       },
       {

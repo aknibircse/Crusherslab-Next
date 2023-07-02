@@ -15,6 +15,10 @@ class CustomDocument extends Document {
             rel="stylesheet"
             crossOrigin="anonymous"
           />
+          <link
+          rel="icon"
+          href="/icon.png"
+        />
         </Head>
         <body>
           <Main />
