@@ -1,0 +1,14 @@
+#nprogress .bar {
+    background: #f60303 !important;
+    z-index: 5000 !important;
+  }
+
+.cursor_pointer{
+    cursor:pointer;
+}
+
+.clabimg{
+    object-fit: contain;
+    max-height: 40px;
+    border: 1px solid red;
+}

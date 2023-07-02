@@ -1,8 +1,6 @@
 import React from 'react';
-import { ThemeProvider } from 'theme-ui';
-import theme from 'theme';
 import SEO from 'components/seo';
-import Layout from 'components/layout';
+// import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import Services from 'sections/services';
 import VideoCalling from 'sections/video-calling';
@@ -14,8 +12,9 @@ import Support from 'sections/support-team';
 
 export default function IndexPage() {
   return (
-    <ThemeProvider theme={theme}>
-      <Layout>
+
+   
+     <>
         <SEO
           title="Software Testing Company | QA Services | TestingExperts"
           description="CrusherslabQA is a leading software testing company that provides QA services & software testing services. We are a team of QA experts who use the latest tools & techniques to ensure the best quality of your software."
@@ -28,7 +27,9 @@ export default function IndexPage() {
         {/* <Blog /> */}
         {/* <Faq /> */}
         <Support />
-      </Layout>
-    </ThemeProvider>
+     </> 
+     
+
+  
   );
 }
