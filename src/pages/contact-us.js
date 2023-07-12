@@ -13,7 +13,7 @@ const Career = () => {
   return (
     <>
         <Grid sx={styles.grid}>
-          <Text>About Us</Text>
+          <Text>Contact Us</Text>
         </Grid>
 
     </>  

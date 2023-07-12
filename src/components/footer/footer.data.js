@@ -9,7 +9,7 @@ export const menuItems = [
     title: 'About Us',
     items: [
       {
-        path: '#!',
+        path: '/contact-us',
         label: 'Contact Us',
       },
       {
