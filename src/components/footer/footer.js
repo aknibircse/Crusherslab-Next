@@ -9,6 +9,7 @@ import Widget from './widget';
 import { menuItems } from './footer.data';
 import { Fragment } from 'react';
 
+
 export default function Footer() {
   return (
     <Fragment>

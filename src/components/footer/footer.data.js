@@ -2,6 +2,9 @@ import facebook from 'assets/images/icons/facebook.png';
 import twitter from 'assets/images/icons/twitter.png';
 import github from 'assets/images/icons/github.png';
 import dribbble from 'assets/images/icons/dribbble.png';
+import aboutpage from 'new-addition/about-us.js'
+
+/**import aboutpage from 'new-addition/about-us.js';*/
 
 export const menuItems = [
   {
@@ -9,11 +12,11 @@ export const menuItems = [
     title: 'About Us',
     items: [
       {
-        path: '#!',
+        path: aboutpage,
         label: 'Contact Us',
       },
       {
-        path: '/about-us',
+        path: aboutpage ,
         label: 'About Us',
       },
       {

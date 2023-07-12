@@ -11,6 +11,7 @@ import Clients from 'sections/clients';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
 import Support from 'sections/support-team';
+import NextLink from 'next/link';
 
 export default function IndexPage() {
   return (
