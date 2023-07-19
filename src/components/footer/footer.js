@@ -104,6 +104,6 @@ const styles = {
     mt: [3, null, null, -31, 3],
     mr: [null, null, null, 'auto', 'unset'],
     gridColumn: '2/3',
-    textAlign: ['center', null, 'left', 'center', 'left'],
+    textAlign: ['center', null, 'bottom', 'center', 'left'],
   },
 };

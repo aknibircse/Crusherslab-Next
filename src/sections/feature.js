@@ -5,9 +5,9 @@ import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
 import videoCalling from 'assets/images/video-calling.gif';
 
-const VideoCalling = () => {
+const feature = () => {
   return (
-    <section sx={styles.section} id="features">
+    <section sx={styles.section}>
       <Container>
         <SectionHeading
           title="Introducing Our Subscription Based Software QA Services"
@@ -23,7 +23,7 @@ const VideoCalling = () => {
   );
 };
 
-export default VideoCalling;
+export default feature;
 
 const styles = {
   section: {

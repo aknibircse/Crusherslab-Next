@@ -11,4 +11,5 @@
     object-fit: contain;
     max-height: 40px;
     border: 1px solid red;
+    cursor:pointer;
 }

@@ -103,7 +103,7 @@ const settings = {
 
 const Services = () => {
   return (
-    <section id="services" sx={styles.section}>
+    <section sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}

@@ -17,7 +17,7 @@ import illustration from 'assets/images/banner.svg';
 
 const Banner = () => {
   return (
-    <section id="home" sx={styles.section}>
+    <section id="index"  sx={styles.section}>
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>

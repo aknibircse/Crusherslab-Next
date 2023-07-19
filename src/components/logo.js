@@ -26,7 +26,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import Link from 'next/link';
-import LogoSvg from 'components/icons/logo';
 import Image from 'next/image';
 
 
@@ -41,9 +40,8 @@ export default function Logo({ isSticky, footer, ...props }) {
       height={75}
       alt="Picture of the author"
       blurDataURL="/blur.png"
-      
     />
-
     </Link>
   );
 }
+

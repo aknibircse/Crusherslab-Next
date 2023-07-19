@@ -8,7 +8,7 @@ import supportTeam from 'assets/images/support-team.png';
 
 export default function Support() {
   return (
-    <section id="support" sx={styles.section}>
+    <section sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}

@@ -7,7 +7,7 @@ import clients from 'assets/images/clients.svg';
 
 const Clients = () => {
   return (
-    <section id="our-clients" sx={styles.section}>
+    <section sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}

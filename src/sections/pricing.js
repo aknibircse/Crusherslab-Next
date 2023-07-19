@@ -131,7 +131,7 @@ const Pricing = () => {
     query: '(min-width: 1024px)',
   });
   return (
-    <section id="pricing" sx={styles.section}>
+    <section sx={styles.section}>
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
